@@ -1,0 +1,66 @@
+{
+  "readyForLaunch": false,
+  "siteName": "Low Range: Offroad 4x4 Guide",
+  "shortName": "Low Range: Offroad 4x4",
+  "description": "Unofficial Low Range: Offroad 4x4 Roblox guide covering confirmed gameplay systems, controls support, truck setup concepts, winch recovery, and the official game link.",
+  "language": "en",
+  "locale": "en_US",
+  "authorName": "Editorial Team",
+  "theme": {
+    "preset": "obsidian-red",
+    "overrides": {
+      "background": "114 38% 95%",
+      "foreground": "0 0% 7%",
+      "card": "114 38% 91%",
+      "card-foreground": "0 0% 7%",
+      "primary": "102 27% 49%",
+      "primary-foreground": "0 0% 0%",
+      "secondary": "114 38% 88%",
+      "muted": "114 38% 90%",
+      "muted-foreground": "0 0% 7%",
+      "border": "114 38% 79%",
+      "radius": ".75rem",
+      "card-shadow": "0 18px 50px rgba(20, 20, 30, .1)",
+      "hero-gradient": "radial-gradient(circle at 78% 14%, hsl(102 27% 49% / .2), transparent 36%)",
+      "background-pattern": "linear-gradient(hsl(0 0% 7% / .04) 1px, transparent 1px), linear-gradient(90deg, hsl(0 0% 7% / .04) 1px, transparent 1px)",
+      "font-sans": "\"Inter\", ui-sans-serif, system-ui, sans-serif",
+      "font-heading": "\"Space Grotesk\", ui-sans-serif, system-ui, sans-serif",
+      "heading-weight": "700",
+      "heading-letter-spacing": "-0.04em"
+    },
+    "skin": "pastel-wiki",
+    "headerStyle": "solid",
+    "componentStyle": "pill",
+    "accentColorId": "default",
+    "colorMode": "custom",
+    "background": "#EEF7ED",
+    "accent": "#6F9E5B",
+    "fontId": "space-grotesk"
+  },
+  "hosting": {
+    "siteUrl": "https://lowrangeoffroad4x4.github.io",
+    "basePath": "",
+    "customDomain": null
+  },
+  "allowedExternalDomains": [
+    "www.roblox.com"
+  ],
+  "assets": {
+    "logo": "/images/low-range-offroad-4x4-logo.png",
+    "cover": "/images/low-range-offroad-4x4-cover.png",
+    "openGraph": "/images/low-range-offroad-4x4-og.svg",
+    "favicon": "/images/low-range-offroad-4x4-logo.png",
+    "logoAlt": "Low Range Offroad 4x4 guide logo",
+    "coverAlt": "Low Range Offroad 4x4 guide cover artwork"
+  },
+  "game": {
+    "name": "Low Range: Offroad 4x4",
+    "platform": "Roblox",
+    "developer": "MTBAce Studios",
+    "genre": "Simulation / Physics Sim",
+    "officialUrl": "https://www.roblox.com/games/88131802740480"
+  },
+  "seo": {
+    "titleTemplate": "%s"
+  }
+}

@@ -1,0 +1,680 @@
+[
+  {
+    "enabled": true,
+    "slug": "controls",
+    "pageType": "guide",
+    "navLabel": "Controls",
+    "title": "Low Range Offroad 4x4 Controls & Keybinds",
+    "description": "Find Low Range Offroad 4x4 controls support for keyboard, mouse and controller on Roblox, plus a clear status for game-specific keybind verification.",
+    "navVisible": true,
+    "parentSlug": null,
+    "hero": {
+      "eyebrow": "Controls guide",
+      "heading": "Low Range: Offroad 4x4 Controls",
+      "lead": "Low Range Offroad 4x4 controls officially support keyboard, mouse and controller input. This page lists only verified input facts and does not invent game-specific keybinds that have not been observed in the current build."
+    },
+    "sections": [
+      {
+        "id": "confirmed-input-support",
+        "heading": "Confirmed Input Support",
+        "intro": "Low Range Offroad 4x4 officially supports keyboard, mouse and controller input according to the developer description.",
+        "paragraphs": [
+          "That support statement confirms the input device categories, but it does not identify the exact button for steering, throttle, brake, differential locks, low range, tire pressure adjustment, or the winch. Generic Roblox defaults are therefore not treated as game-specific evidence."
+        ],
+        "table": {
+          "caption": "Current control verification status",
+          "columns": [
+            "Input area",
+            "Status",
+            "What can be published now"
+          ],
+          "rows": [
+            [
+              "Keyboard",
+              "Supported",
+              "Device support is confirmed; exact game bindings require in-game capture."
+            ],
+            [
+              "Mouse",
+              "Supported",
+              "Mouse support is confirmed; specific mouse actions require in-game capture."
+            ],
+            [
+              "Controller",
+              "Supported",
+              "Controller support is confirmed; exact controller buttons require in-game capture."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "keyboard-controls",
+        "heading": "Low Range Offroad 4x4 Keyboard Controls",
+        "intro": "A reliable controls guide should answer the actual action-to-key question, so unverified rows are intentionally withheld instead of filled with guesses.",
+        "subsections": [
+          {
+            "heading": "What Is Verified Right Now?",
+            "paragraphs": [
+              "Keyboard support itself is verified. The available public developer text does not provide a full PC keybind table. Until a current in-game prompt, settings screen, or reproducible gameplay test confirms a binding, this guide will not label any key as the official Low Range Offroad 4x4 control."
+            ]
+          },
+          {
+            "heading": "How the Keybind Table Should Be Verified",
+            "paragraphs": [
+              "For each action, record the visible in-game action label, the key shown on screen, the platform or input mode, a screenshot reference, and the date tested. This is especially important in Early Access because control mappings can change."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "controller-controls",
+        "heading": "Controller Controls and Gamepad Support",
+        "intro": "Controller support is developer-confirmed, but the exact gamepad mapping is still a live verification task.",
+        "subsections": [
+          {
+            "heading": "Do Not Copy Another Driving Game’s Layout",
+            "paragraphs": [
+              "Low Range Offroad 4x4 should not inherit Xbox or PlayStation button labels from another Roblox driving game, a real vehicle manual, or a general controller template. Only controls visible in this game should appear as confirmed."
+            ]
+          },
+          {
+            "heading": "Check the Current Build",
+            "paragraphs": [
+              "When verifying a controller, note the device type and whether the game changes on-screen prompts after switching input mode. If a binding differs between devices, store separate rows rather than collapsing them into one ambiguous answer."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "control-settings",
+        "heading": "How to Check or Change Your Controls",
+        "intro": "The public sources confirm supported devices but do not confirm whether the current build exposes a remapping menu.",
+        "subsections": [
+          {
+            "heading": "If a Button Does Not Work",
+            "paragraphs": [
+              "First make sure the game window has focus and that the intended input device is active. Then read the current on-screen prompts or any in-game help that is actually visible. If the game provides a controls or settings menu, document its exact path only after seeing it in the current build. A respawn or reconnect can be tested as troubleshooting, but should not be described as a guaranteed game-specific fix unless it is reproducible."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "driving-systems",
+        "heading": "Controls and Offroad Driving Systems",
+        "intro": "The developer confirms tire air-down, differential locks, low range, 4WD fuel use, and winch recovery as gameplay systems.",
+        "paragraphs": [
+          "Those systems are covered in separate pages so this controls page does not compete with truck setup or recovery intent. Once exact inputs are verified, the control table can point to the relevant setup or winch section instead of duplicating full tutorials."
+        ],
+        "links": [
+          {
+            "label": "Truck setup controls and concepts",
+            "slug": "truck-setup",
+            "description": "Read the confirmed setup systems and the limits on unverified values."
+          },
+          {
+            "label": "Winch recovery tutorial",
+            "slug": "winch-guide",
+            "description": "See confirmed winch anchor facts and the verification status of the exact sequence."
+          },
+          {
+            "label": "Low Range Offroad 4x4 game guide",
+            "slug": "",
+            "description": "Return to the main Roblox game overview."
+          }
+        ]
+      },
+      {
+        "id": "first-session-controls",
+        "heading": "A First-Session Controls Check",
+        "paragraphs": [
+          "Open the official Roblox experience and begin by identifying the input device you are actually using. The published developer description confirms keyboard, mouse and controller support, but it does not tell us which steering, throttle or braking buttons appear in your session. If the game displays an onboarding prompt, help panel or controls screen, use what it shows rather than a memorized layout from another driving game. Record the exact wording on screen before treating a button name as an answer for this particular title.",
+          "A reliable control check separates basic driving from vehicle systems. Steering and movement are one category; tire pressure, differential locks, low range and winching are another. A player may know how to drive forward yet still be unable to find the setup actions that matter on difficult trails. As you learn each action, keep its label, input device and game version together. If the current build provides no visible reference, the correct status is not confirmed—not an invitation to guess a commonly used key."
+        ]
+      },
+      {
+        "id": "keyboard-verification-workflow",
+        "heading": "How to Record a Reliable Keyboard Mapping",
+        "paragraphs": [
+          "For each keyboard action you want to document, start by naming the action rather than the key. For example, distinguish steering from selecting low range or using a winch. Check the game’s own displayed prompt if one exists, press only the input shown by the current build, and observe whether the expected action occurs. A screenshot of the prompt plus a short description of the observed result makes a much stronger source than a list of letters without context.",
+          "If a keyboard shortcut seems not to work, do not immediately conclude that the game has removed the feature. The correct input may depend on whether a menu has focus, which vehicle is being used, or whether the action is available in that situation; these are possibilities to check, not established facts about Low Range. Document the circumstances before making any claim. Where a prompt cannot be found, record the unknown field and move on instead of replacing it with an unverified Roblox default."
+        ]
+      },
+      {
+        "id": "mouse-and-camera",
+        "heading": "Mouse Input, Camera and Interface Questions",
+        "paragraphs": [
+          "Mouse support is confirmed by the creator’s description, but the public text does not identify camera gestures, aiming modes or any special pointer interaction. This distinction matters because an ordinary computer mouse may be used both for camera movement and for clickable controls in many games, while the actual implementation is game-specific. A controls guide should never use that general expectation as proof of a particular Low Range mechanic.",
+          "When checking a mouse-related action, take note of what the game visibly responds to and whether the pointer is over a menu, a vehicle or the world. If the result changes when you enter or exit a panel, record that context. For a published tutorial, an annotated screenshot of the real interface is preferable to a speculative instruction to left-click, right-click or drag. Accurate device-specific instructions reduce frustration and avoid sending players back to search for a second answer."
+        ]
+      },
+      {
+        "id": "controller-comparison",
+        "heading": "Controller Support Without Invented Button Charts",
+        "paragraphs": [
+          "The game description says controllers are supported, but it does not publish the button mapping for any particular device. Controller branding and layouts can differ, and one button may have different behavior depending on the game. Do not assume that an action belongs on a trigger, shoulder button, face button or stick just because other off-road titles use it. A true Low Range controls table needs a visible game prompt or repeatable test for each row.",
+          "When verifying a controller, record the platform, controller model if known, and the action name displayed on screen. If on-screen prompts change when the input device changes, capture the alternate display separately. This is particularly valuable for a guide aimed at both desktop and controller users: an action that is easy to explain on a keyboard may need a different description on a gamepad. Until direct evidence is available, the page should confidently state support but leave individual buttons unconfirmed."
+        ]
+      },
+      {
+        "id": "driving-versus-setup",
+        "heading": "Keep Driving Controls Separate From Truck Setup",
+        "paragraphs": [
+          "Low Range makes an explicit distinction between driving the trail and preparing the truck for difficult terrain. The creator describes airing down tires, locking differentials and dropping into low range when conditions become demanding. Knowing that those features exist does not identify the key or interface that controls them. A useful controls reference should link the vehicle concepts to the appropriate setup guide while keeping the mapping itself tied to actual current-build evidence.",
+          "If you are searching for a button because the truck is struggling, first identify which feature you are trying to access. Tire pressure, differential locking and low-range gearing are not interchangeable names for the same control. The truck setup guide explains the verified feature list and a careful way to compare changes. This page remains responsible for the device and input question. Separating these tasks prevents a long, vague guide from hiding the answer you came to find."
+        ]
+      },
+      {
+        "id": "testing-and-logging",
+        "heading": "A Small Test Log That Makes Controls Reproducible",
+        "paragraphs": [
+          "For a future controls table, keep a simple record: the action name shown by the game, input device, visible binding, observed response, date and supporting screenshot. One row for each action is enough. If a value has not been observed, write “not verified” in your research notes rather than publishing a guessed button. A screenshot of a real control prompt is a stronger verification than a text claim copied through multiple unofficial sites.",
+          "When the experience updates, revisit the highest-value actions first: movement, vehicle setup and winch recovery. The purpose is not to produce a large table as quickly as possible; it is to help a player reliably perform an action in the current game. A short verified table is superior to a comprehensive-looking chart filled with controls from another title. This site’s public wording reflects that rule until suitable in-game proof becomes available."
+        ]
+      },
+      {
+        "id": "troubleshooting-input",
+        "heading": "What to Do When an Input Does Not Respond",
+        "paragraphs": [
+          "Begin with observable facts. Check whether the game window or a menu appears active, whether the intended vehicle is visible, and whether you have seen the relevant action offered by the current game build. These are generic diagnosis questions, not assertions that Low Range uses any particular focus system or hidden control state. If an on-screen prompt exists, verify you are following it exactly. If it does not, do not spend time cycling through random key combinations based on search snippets.",
+          "A useful troubleshooting note distinguishes “I cannot find the control” from “I found a control but it did not produce the expected result.” The first requires a verified map of game actions; the second requires information about the situation in which the player tried it. Record a short video if possible so the behavior is visible. Until such evidence exists, this guide avoids presenting imaginary fixes or claiming a confirmed game bug."
+        ]
+      },
+      {
+        "id": "controls-summary",
+        "heading": "Controls Questions and Next Steps",
+        "paragraphs": [
+          "The defensible answer today is that Low Range: Offroad 4x4 supports keyboard, mouse and controller input. The precise bindings for steering, throttle, braking, tire adjustments, differential locks, low range and the winch are not established by the public developer text available to this guide. If you need an exact key, a current in-game prompt or firsthand recorded test is the appropriate source. Repeating a general Roblox keyboard layout would make the page look more complete while reducing its reliability.",
+          "Use the truck setup guide for what the developer actually says about vehicle settings, and the winch guide for the confirmed use of trees and a friend’s truck as recovery anchors. Return to the home page for the official game link and an overview of the terrain, fuel and checkpoints. These links keep the controls page focused on one search intent while giving players a route to other real questions about the game."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Low Range: Offroad 4x4 support a gamepad?",
+        "answer": "Yes. The developer description explicitly says keyboard, mouse and controller are supported."
+      },
+      {
+        "question": "What are the PC keybinds in Low Range Offroad 4x4?",
+        "answer": "The public developer description available for this build does not provide a complete keybind list. This guide does not substitute generic Roblox controls for verified game-specific bindings."
+      },
+      {
+        "question": "Can I rebind keys?",
+        "answer": "That is not confirmed by the available public source material. A current in-game settings check is required before publishing a yes or no answer."
+      },
+      {
+        "question": "How do I operate the winch?",
+        "answer": "The developer confirms that the winch can attach to a tree or a friend’s truck. The exact activation and attachment inputs still require direct in-game verification; see the winch guide for confirmed recovery facts."
+      }
+    ],
+    "screenshots": [],
+    "relatedSlugs": [
+      "truck-setup",
+      "winch-guide"
+    ],
+    "lastReviewed": "2026-11-05"
+  },
+  {
+    "enabled": true,
+    "slug": "truck-setup",
+    "pageType": "guide",
+    "navLabel": "Truck Setup",
+    "title": "Low Range Offroad 4x4 Truck Setup & Tire Guide",
+    "description": "Learn Low Range Offroad 4x4 truck setup basics on Roblox: tire air-down, differential locks, low range, 4WD fuel use and terrain choices with verified details.",
+    "navVisible": true,
+    "parentSlug": null,
+    "hero": {
+      "eyebrow": "Truck setup guide",
+      "heading": "Low Range: Offroad 4x4 Truck Setup Guide",
+      "lead": "Low Range Offroad 4x4 truck setup centers on three developer-confirmed tools for difficult trail sections: air down the tires, lock the diffs, and drop into low range. This guide explains those systems without inventing PSI, gear ratios, or menu steps."
+    },
+    "sections": [
+      {
+        "id": "how-truck-setup-works",
+        "heading": "How Truck Setup Works in Low Range",
+        "intro": "Low Range Offroad 4x4 asks players to prepare the truck when terrain becomes difficult rather than relying on speed alone.",
+        "subsections": [
+          {
+            "heading": "Three Settings Mentioned by the Developer",
+            "paragraphs": [
+              "The published game description explicitly names tire air-down, differential locks, and low range. These are the three setup systems this page can safely treat as real game mechanics. Exact control labels, numerical values, and measured effects still need current gameplay evidence."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tire-pressure",
+        "heading": "Tire Pressure: When to Air Down",
+        "intro": "Tire air-down is a confirmed feature, but the developer description does not publish a universal best PSI for mud, roots, rock, or water.",
+        "subsections": [
+          {
+            "heading": "Finding the Tire Pressure Setting",
+            "paragraphs": [
+              "The existence of tire air-down is confirmed. The exact menu location or input should only be added after a current in-game screenshot or reproducible test shows it."
+            ]
+          },
+          {
+            "heading": "Do Not Guess PSI",
+            "paragraphs": [
+              "Real-world offroad tire advice cannot be copied into the game as if it were an in-game optimum. Until Low Range Offroad 4x4 exposes verified values and those values are tested, this guide will not recommend numbers such as 10, 15, or 20 PSI as a best setting."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "diff-lock-low-range",
+        "heading": "Differential Locks and Low Range",
+        "intro": "The developer tells players to lock the diffs and drop into low range when the trail gets hard.",
+        "subsections": [
+          {
+            "heading": "Locking Diffs",
+            "paragraphs": [
+              "Differential locking is confirmed as a game system. A reliable effect description should come from the current build, ideally by repeating the same obstacle with the setting changed and recording the visible result. This page does not invent axle behavior or hidden traction multipliers."
+            ]
+          },
+          {
+            "heading": "Switching to Low Range",
+            "paragraphs": [
+              "Low range is likewise confirmed. The public description does not publish a gear ratio or exact speed change, so those numbers remain unverified until measured or shown by the game."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "terrain-checklist",
+        "heading": "Terrain Setup Checklist",
+        "intro": "Mud, roots, rock and water are all explicitly named terrain types. Use this checklist as a test plan, not as a claim that one setup is always best.",
+        "table": {
+          "caption": "Terrain-oriented setup checks based on confirmed game systems",
+          "columns": [
+            "Terrain",
+            "Confirmed context",
+            "What to test rather than assume"
+          ],
+          "rows": [
+            [
+              "Mud",
+              "Mud affects grip; ruts deepen as trucks pass.",
+              "Compare line choice and the three setup systems in the same obstacle."
+            ],
+            [
+              "Roots",
+              "Roots are named as a terrain challenge.",
+              "Check whether line choice or setup change produces a visible difference."
+            ],
+            [
+              "Rock",
+              "Rock is named as a terrain challenge.",
+              "Record repeatable behavior before publishing a “best” configuration."
+            ],
+            [
+              "Water",
+              "Water is named as a terrain challenge.",
+              "Do not invent depth limits or waterproofing rules without testing."
+            ]
+          ]
+        },
+        "subsections": [
+          {
+            "heading": "Mud and Deep Ruts",
+            "paragraphs": [
+              "The developer says ruts get deeper with every truck that passes and that this applies to everyone on the server. Because the surface can change during a session, a setup that worked for an earlier truck may not be identical for a later run."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fuel-progress",
+        "heading": "Fuel and Trail Progress",
+        "intro": "The game description confirms that 4WD burns more fuel and that fuel caches both refill the tank and act as checkpoints.",
+        "subsections": [
+          {
+            "heading": "When to Refuel",
+            "paragraphs": [
+              "Use the trail caches when the game presents them and avoid publishing invented distances, costs, or fuel-consumption rates. The confirmed relationship is simply that 4WD consumes more fuel and caches restore fuel while marking progress."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-controls-recovery",
+        "heading": "Related Controls and Recovery",
+        "paragraphs": [
+          "Truck setup becomes useful only when players can reach the relevant controls, and difficult terrain can still require a winch. Use the dedicated pages for those separate tasks."
+        ],
+        "links": [
+          {
+            "label": "Game controls",
+            "slug": "controls",
+            "description": "Check device support and the status of verified bindings."
+          },
+          {
+            "label": "Winch when your truck is stuck",
+            "slug": "winch-guide",
+            "description": "Review confirmed winch anchors and recovery facts."
+          },
+          {
+            "label": "Low Range Offroad 4x4 Roblox guide",
+            "slug": "",
+            "description": "Return to the main game hub."
+          }
+        ]
+      },
+      {
+        "id": "why-the-three-systems-matter",
+        "heading": "Why These Three Systems Are Mentioned Together",
+        "paragraphs": [
+          "The creator specifically invites players to air down tires, lock differentials and drop into low range when a trail becomes difficult. That is direct evidence that all three are part of the intended truck-preparation experience. It does not mean the creator published a universal configuration, a default numerical pressure or a measured improvement for every surface. A meaningful truck setup guide therefore begins with the verified feature list, then explains how players can compare real in-game outcomes.",
+          "Think of the settings as different questions to investigate, not a single magic preset. Tire pressure concerns a tire-related adjustment, differential lock is a separate vehicle system, and low range is a gearing mode. The real-world terms help identify the feature families, but this game’s exact physics and control implementation must be observed rather than imported from automotive manuals. The value of a comparison is in deciding which game setting to inspect when the trail changes."
+        ]
+      },
+      {
+        "id": "setup-observation-method",
+        "heading": "How to Compare a Setting Without Guessing",
+        "paragraphs": [
+          "Select one visible obstacle and document the conditions before testing an adjustment. Note the terrain type, the truck in use, the position from which the attempt begins and any settings you can actually verify on screen. Attempt the section in a repeatable way, then change a single available parameter and observe the new result. Keeping other variables as similar as possible will make the result easier to interpret, although multiplayer ruts and other game changes can still make exact repetition difficult.",
+          "A single successful attempt is not proof of the best setup for everyone. It is evidence about one vehicle, trail segment, date and game build. If different players obtain conflicting results, describe the circumstances instead of declaring a universal optimum. This method is especially important for tire pressure, where a copied PSI number may come from a real truck, a different game or an older build. Without a visible game value and an actual comparison, numerical recommendations remain unverified."
+        ]
+      },
+      {
+        "id": "terrain-comparison",
+        "heading": "Terrain-by-Terrain Setup Thinking",
+        "paragraphs": [
+          "Mud, roots, rock and water appear in the creator’s description, giving a reliable starting list for a terrain checklist. In mud, a player can observe existing ruts and whether their line changes as other vehicles pass. On rocky ground, the comparison may focus on the approach and visible clearance. Near roots or water, the first question is what the current environment shows. Those are observation prompts, not promises that a specific control produces a specific simulated grip coefficient.",
+          "When a section becomes harder, the creator’s description suggests the three setup systems as tools to consider. It does not provide a rule such as “always lock differentials before water” or “use one PSI on every rock.” That is why this site does not publish such a table as fact. Instead, test settings only when available, compare the result in the same location, and keep track of the evidence. Over time, dated notes can become a much better answer than invented universal settings."
+        ]
+      },
+      {
+        "id": "understanding-tires",
+        "heading": "Tire Air-Down: What Is Known and Unknown",
+        "paragraphs": [
+          "The published game description explicitly includes airing down tires. That confirms the existence of a tire-related setup idea in the intended gameplay, but not the exact screen where it appears or how many levels of adjustment exist. It also does not identify an optimal pressure for mud, rocks or any other named terrain. A player who finds a numerical suggestion should check whether it comes from actual Low Range gameplay in the current build.",
+          "A useful tire-pressure observation captures the visible setting before and after the change and records what happened on the trail. If you cannot verify the in-game interface, do not assume the real-world units or ranges. It is tempting to fill a guide with general off-road advice, but that can make a specific Roblox search result less accurate. This page chooses a clear boundary: the feature is supported by developer wording, while exact values and tested effects need firsthand evidence."
+        ]
+      },
+      {
+        "id": "understanding-diffs",
+        "heading": "Differential Locks: A Separate Setup Choice",
+        "paragraphs": [
+          "Locking differentials is the second preparation action the creator names. The phrase is enough to identify the feature in the game description, but it is not a published walkthrough of which differential can be locked, where the controls appear or which terrain yields the largest gain. Avoid converting a real-car explanation into a guarantee about this simulation. The most useful next step for a player is to identify the actual available switch and the state the game displays.",
+          "When producing a verified comparison, record both the setting state and the obstacle result. If the UI offers more than one lock option, those options should be documented separately only after being observed. A result that depends on the exact truck model should include that context. The purpose of this level of detail is to prevent a high-ranking search page from becoming an inaccurate source of controls and settings. Until testing is complete, confirmed mechanism names and careful observation guidance are more dependable."
+        ]
+      },
+      {
+        "id": "understanding-lowrange",
+        "heading": "Low-Range Gearing and Trail Choice",
+        "paragraphs": [
+          "Dropping into low range is the third action confirmed in the developer’s wording. It is presented as something to consider when a trail becomes difficult. The public text does not specify the keybind, menu location, gear ratio, maximum speed or automatic behavior. Those facts should not be inferred from the name of the mechanic. This page therefore describes low range as a confirmed option without claiming an exact performance effect that was never measured in the game.",
+          "When testing low range, choose a section where you can observe the difference and keep a record of the vehicle and game version. Compare the same situation as carefully as the game allows. If you are unable to switch modes, consult verified in-game control evidence rather than guessing a keyboard shortcut. The dedicated controls page is responsible for input mapping, while the setup page is responsible for explaining which settings exist and how to evaluate them."
+        ]
+      },
+      {
+        "id": "fuel-setup-relationship",
+        "heading": "4WD Fuel Use and Why Checkpoints Matter",
+        "paragraphs": [
+          "The developer confirms that 4WD uses more fuel and that trail fuel caches refill the tank while serving as checkpoints. These facts matter when trying different vehicle configurations because a longer or repeated attempt can change the fuel situation. They do not establish a rate of consumption, a recommended configuration for every trail or a map of fuel-cache positions. Any numerical claim should be supported by game-specific observations, not an assumption about real vehicles.",
+          "When testing setup changes, pay attention to where you are relative to a known cache and whether the test starts from a comparable game state. If fuel or checkpoint information is visible on screen, capture it for reference. The objective is to keep a decision grounded in what the player can see. The home guide covers the broader route picture; this page stays focused on setup choices. When a vehicle is already stuck, the winch guide explains the separate recovery feature confirmed by the creator."
+        ]
+      },
+      {
+        "id": "setup-final-checklist",
+        "heading": "A Useful Truck Setup Checklist",
+        "paragraphs": [
+          "Before a difficult section, identify the obstacle and confirm which of the three developer-mentioned systems the current build actually exposes. Observe the setting currently displayed; do not change several unknown controls at once. If you adjust a value, record it and note whether the obstacle result changed. If the terrain has been altered by other players, mention that in your observations because the creator describes shared muddy ruts. Check the visible fuel situation rather than assuming a fixed amount remains.",
+          "After an attempt, separate the conclusion from the observation. “I reached the end of this muddy section on this setup” is a concrete report; “this is the best PSI for all players” is not supported by one attempt. A well-maintained guide can add dated screenshots and comparative results as they become available. For now, Low Range: Offroad 4x4 truck setup is best approached through the three confirmed options, careful terrain observation and honest uncertainty about exact numerical recipes."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Low Range include tire pressure adjustment?",
+        "answer": "Yes. The developer description specifically tells players to air down the tires when the trail gets hard."
+      },
+      {
+        "question": "Can I lock the differential?",
+        "answer": "Yes. The developer description says to lock the diffs. The exact in-game access method still needs direct verification."
+      },
+      {
+        "question": "Does 4WD use more fuel?",
+        "answer": "Yes. The developer description states that 4WD burns more fuel."
+      },
+      {
+        "question": "What PSI is best for mud?",
+        "answer": "No game-specific best PSI is verified in the available sources. Real-world tire-pressure recommendations should not be presented as Low Range Offroad 4x4 settings."
+      }
+    ],
+    "screenshots": [],
+    "relatedSlugs": [
+      "controls",
+      "winch-guide"
+    ],
+    "lastReviewed": "2026-11-05"
+  },
+  {
+    "enabled": true,
+    "slug": "winch-guide",
+    "pageType": "guide",
+    "navLabel": "Winch Guide",
+    "title": "Low Range Offroad 4x4 Winch & Recovery Guide",
+    "description": "Stuck in Low Range Offroad 4x4 on Roblox? Learn the confirmed winch anchor options, recovery context, and which exact steps still require in-game verification.",
+    "navVisible": true,
+    "parentSlug": null,
+    "hero": {
+      "eyebrow": "Recovery guide",
+      "heading": "Low Range: Offroad 4x4 Winch & Recovery Guide",
+      "lead": "The Low Range Offroad 4x4 winch is confirmed as a recovery tool: the developer says a stuck truck can hook to a tree or a friend’s truck and pull free. Exact activation buttons and attachment steps still need current in-game verification."
+    },
+    "sections": [
+      {
+        "id": "how-winch-works",
+        "heading": "How Does the Winch Work in Low Range?",
+        "intro": "The confirmed recovery mechanic is simple at the concept level: use the winch when stuck and attach it to a valid anchor.",
+        "subsections": [
+          {
+            "heading": "Confirmed Winch Anchors",
+            "paragraphs": [
+              "Trees and a friend’s truck are the two anchor choices explicitly named in the developer description. This page does not invent additional anchor types, rope length, damage, strength limits, or breakage rules."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "verified-steps",
+        "heading": "How to Use the Winch: Verified In-Game Steps",
+        "intro": "A full step-by-step tutorial requires a current gameplay capture showing the real sequence. Until then, the guide keeps the exact controls unclaimed.",
+        "table": {
+          "caption": "Winch procedure verification gate",
+          "columns": [
+            "Procedure item",
+            "Current status",
+            "Publication rule"
+          ],
+          "rows": [
+            [
+              "Open or select the winch",
+              "Unverified",
+              "Add only after the current UI or prompt is captured."
+            ],
+            [
+              "Choose an anchor",
+              "Partially verified",
+              "Tree and friend truck are confirmed; selection method is not."
+            ],
+            [
+              "Attach the hook",
+              "Unverified",
+              "Do not publish a button until observed."
+            ],
+            [
+              "Pull the truck free",
+              "Concept confirmed",
+              "Developer confirms winch recovery; exact input behavior is not yet documented."
+            ],
+            [
+              "Detach or reposition",
+              "Unverified",
+              "Add after reproducible gameplay testing."
+            ]
+          ]
+        },
+        "subsections": [
+          {
+            "heading": "Attach to a Tree",
+            "paragraphs": [
+              "A tree is a confirmed anchor type. The exact interaction prompt and button should be documented only from this game’s current UI."
+            ]
+          },
+          {
+            "heading": "Recover With a Friend",
+            "paragraphs": [
+              "The developer explicitly says a friend’s truck can be used as an anchor. This supports cooperative recovery, but does not prove a separate towing mode, special multiplayer menu, or a particular button sequence."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "when-stuck",
+        "heading": "What to Do When Your Truck Is Stuck",
+        "intro": "Before publishing a recovery recipe, distinguish confirmed game facts from general troubleshooting ideas.",
+        "subsections": [
+          {
+            "heading": "Mud and Rocks",
+            "paragraphs": [
+              "Mud and rock are confirmed terrain types, and the developer directly positions the winch as the recovery tool for a stuck truck. A practical test should record the truck position, available anchor, visible prompt, input, and result. Avoid claiming undocumented traction or rope physics."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "troubleshooting",
+        "heading": "Winch Troubleshooting",
+        "intro": "Only repeatable failure cases should become game-specific troubleshooting instructions.",
+        "subsections": [
+          {
+            "heading": "No Anchor Available",
+            "paragraphs": [
+              "If no valid tree or friend truck is available, do not invent an alternative anchor. Repositioning or trying another nearby object can be tested, but it should be described as a tested behavior only after the game confirms it."
+            ]
+          },
+          {
+            "heading": "No Attachment or No Response",
+            "paragraphs": [
+              "A reliable troubleshooting entry needs evidence from the current build: what prompt was visible, what input was used, and what happened. Without that evidence, this page should not blame a specific key, menu, cooldown, or bug."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prepare-before-recovery",
+        "heading": "Prepare Your Truck Before Recovering",
+        "paragraphs": [
+          "The same developer description that confirms the winch also confirms tire air-down, differential locks and low range. Those systems may be relevant before or after a recovery attempt, but exact best settings are not assumed here."
+        ],
+        "links": [
+          {
+            "label": "Prepare your truck for the trail",
+            "slug": "truck-setup",
+            "description": "Review the confirmed setup systems without guessed PSI or ratios."
+          },
+          {
+            "label": "Low Range controls and input guide",
+            "slug": "controls",
+            "description": "Check supported devices and binding verification status."
+          },
+          {
+            "label": "Low Range Roblox game overview",
+            "slug": "",
+            "description": "Return to the main game hub."
+          }
+        ]
+      },
+      {
+        "id": "anchor-overview",
+        "heading": "What the Creator Actually Confirms About Anchors",
+        "paragraphs": [
+          "The developer description gives a short but important answer: when a truck is stuck, a player can hook a tree or a friend’s truck and pull free. This is the basis for the winch guide. The statement identifies two anchor categories and a recovery purpose. It does not explain selection range, the input used to attach, whether every tree is eligible or whether all trucks can serve as anchors in every situation. A tutorial should not turn those unknowns into invented steps.",
+          "If you are approaching a recovery problem, first look for the two confirmed categories in the current game environment. That is an orientation tip, not a guarantee that any visible object is selectable. A precise walkthrough needs a gameplay capture showing the relevant interaction from start to finish. Until there is such evidence, naming legitimate anchor types is more useful than confidently assigning a key or menu button copied from another title."
+        ]
+      },
+      {
+        "id": "stuck-situation",
+        "heading": "Understand the Situation Before Recovery",
+        "paragraphs": [
+          "Low Range includes mud, roots, rock and water in the creator’s description. A stuck vehicle in one environment may present a different visible situation from a vehicle in another, even though the same winch feature is available in principle. Before attempting recovery, identify the ground and the available space, and note whether a tree or friend’s vehicle is actually present. Those observations help define the problem without pretending to know undocumented rope physics.",
+          "The creator also states that muddy ruts deepen as trucks use them and the changes are shared in a server. This is relevant when a previously usable approach becomes harder. If a truck repeatedly fails in the same rut, recognize that the obstacle may not be identical to a prior attempt. Do not infer a universal successful angle or throttle technique from that statement alone. Record the local circumstances and seek an observable recovery option rather than a guessed combination of controls."
+        ]
+      },
+      {
+        "id": "tree-anchor",
+        "heading": "Recovery Using a Tree as an Anchor",
+        "paragraphs": [
+          "Trees are explicitly mentioned by the developer as winch anchors. That confirms the general recovery idea, not the exact game procedure. A proper tree-anchor tutorial would show the target in the current build, the way the game indicates attachment availability and the visible outcome after the player activates the winch. Because none of those specific UI details are established by the public description, this page does not invent an aiming or clicking sequence.",
+          "When you are learning the feature, notice whether the game provides an interaction prompt near a possible anchor. Record that prompt precisely if it appears. If no prompt is visible, avoid assuming the object is broken or the winch is unavailable; those conclusions require more testing. A screenshot that identifies the actual tree and user interface would let future readers know what the instruction is based on. Only observed details should move from a research note into the confirmed procedure."
+        ]
+      },
+      {
+        "id": "friend-anchor",
+        "heading": "Recovery With a Friend’s Truck",
+        "paragraphs": [
+          "A friend’s truck is the other anchor the creator names. This is a distinctive part of the documented cooperative play experience, and it is the strongest reason to include multiplayer recovery advice in a Low Range guide. Still, the description does not specify how either player starts an attachment, whether permissions are needed or what distance is allowed. Do not claim that a particular party setting or towing menu exists unless it is visible in the game.",
+          "A future verified walkthrough should identify which player performed each action and what both screens displayed. This avoids ambiguity about whether the stuck driver or assisting driver initiated the recovery. Until that evidence is collected, the concrete answer is limited but clear: the creator states that a friend’s truck can be used as a winch anchor. Players seeking an actual button must consult the current game interface or a documented recent gameplay demonstration."
+        ]
+      },
+      {
+        "id": "winch-steps-status",
+        "heading": "Why an Exact Winch Keybind Is Not Listed Yet",
+        "paragraphs": [
+          "Searchers often want a short instruction such as “press this button to use the winch.” That kind of answer is valuable only if it is correct. The creator’s public description does not name the button, the platform-specific binding, the targeting interaction or a release action. Roblox games often differ in their controls, so a generic winch shortcut would be an especially risky invention. This guide intentionally avoids presenting one as verified.",
+          "To establish an exact procedure, collect continuous evidence: the relevant game build, input device, visible prompt, target selection, attachment, pulling action and completion or detachment. If a step is not visible, label it unverified instead of interpolating from what seems logical. Once the evidence exists, it can be turned into an illustrated guide with clear steps. Until then, this page answers what can be confirmed and links to the controls guide for the broader status of device mappings."
+        ]
+      },
+      {
+        "id": "recovery-checklist",
+        "heading": "A Recovery Observation Checklist",
+        "paragraphs": [
+          "Start by naming the condition: is the truck stuck in mud, near rock or somewhere else described by the game? Note the objects visible around it and whether a friend’s truck is nearby. Identify whether the game interface gives you a real winch action or attachment prompt, and record the words it uses. Avoid changing several vehicle settings at the same time if you are trying to understand which action helped. This list is a method for collecting reliable observations, not an official game-control sequence.",
+          "If an attempt fails, keep the distinction between what you saw and what you assume. For example, “no interaction prompt appeared in this position” is an observation; “this tree can never be used” is a much broader claim. The same applies to teammate recovery. A video or before-and-after screenshot can explain an actual failure more precisely than a guess about hidden collision rules. This discipline keeps an Early Access guide useful even when the game is changing."
+        ]
+      },
+      {
+        "id": "recovery-and-setup",
+        "heading": "Recovery Versus Truck Preparation",
+        "paragraphs": [
+          "The winch is one part of the game’s off-road toolset; the creator separately names tire air-down, differential locks and low range for tough trails. Those systems are relevant to preparation, while the winch is explicitly described as a way to pull free after becoming stuck. The existence of both does not tell us that one should always be used before the other or that a particular setup guarantees a successful recovery. That sequence would require a real gameplay test.",
+          "If you are still moving but struggling on a trail, the truck setup guide may be more relevant to the immediate question. If you are already stuck and want to know the confirmed anchor options, stay on this page. If the problem is finding the actual activation key, open the controls guide. Keeping these questions separate makes it easier to locate a specific answer without blending guessed mechanical advice into the winch instructions."
+        ]
+      },
+      {
+        "id": "winch-verification",
+        "heading": "How This Winch Guide Can Become a Verified Walkthrough",
+        "paragraphs": [
+          "A high-quality future walkthrough should show one complete recovery from the current version of Low Range: Offroad 4x4. It should include the visible anchor, the on-screen interaction prompt, which input device was used and the game’s response. Another capture should cover a friend-assisted recovery if the steps differ. Each screenshot needs an accurate caption and a test date, because a generic promotional illustration cannot prove an in-game control.",
+          "Until that material is available, the honest answers are that the developer confirms winching to a tree or a friend’s truck, and that the precise user-interface actions still need verification. The guide does not claim to have tested rope limits, physics values, recovery speed, hidden damage or automatic reset behavior. Clear limits protect players from wasting time on fabricated shortcuts and protect the site from publishing an apparently complete but unreliable tutorial."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can you winch to a tree in Low Range?",
+        "answer": "Yes. The developer description explicitly says you can hook a tree when the truck is stuck."
+      },
+      {
+        "question": "Can I winch to a friend’s truck?",
+        "answer": "Yes. A friend’s truck is explicitly named as a valid recovery anchor in the developer description."
+      },
+      {
+        "question": "Which button activates the winch?",
+        "answer": "The available public developer text does not specify the exact activation button. That input must be verified in the current game before it is listed as a fact."
+      },
+      {
+        "question": "Is the winch useful in mud?",
+        "answer": "The developer says to use the winch when stuck and separately identifies mud as a terrain challenge. Surface-specific effectiveness has not been measured here."
+      }
+    ],
+    "screenshots": [],
+    "relatedSlugs": [
+      "truck-setup",
+      "controls"
+    ],
+    "lastReviewed": "2026-11-05"
+  }
+]

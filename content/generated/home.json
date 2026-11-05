@@ -1,0 +1,246 @@
+{
+  "enabled": true,
+  "slug": "",
+  "pageType": "home",
+  "title": "Low Range Offroad 4x4 Roblox Guide | Gameplay & Tips",
+  "description": "Learn how Low Range: Offroad 4x4 works on Roblox. Find controls support, truck setup basics, winch recovery facts, and the official game link.",
+  "navVisible": true,
+  "hero": {
+    "eyebrow": "Unofficial Roblox player guide",
+    "heading": "Low Range: Offroad 4x4 Roblox Guide",
+    "lead": "Low Range: Offroad 4x4 is an Early Access Roblox offroad driving game from MTBAce Studios built around slow, technical trail driving rather than pure speed.",
+    "supportingText": "Use this hub to open the official Roblox experience, understand the confirmed game systems, and jump to focused help for controls, truck setup, and winch recovery. This site is independent and does not host the game.",
+    "primaryLink": {
+      "label": "Open Controls Guide",
+      "slug": "controls"
+    },
+    "secondaryLink": {
+      "label": "Play on Roblox",
+      "url": "https://www.roblox.com/games/88131802740480"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-low-range-offroad-4x4",
+      "heading": "What Is Low Range: Offroad 4x4?",
+      "intro": "Low Range: Offroad 4x4 is a Roblox Early Access simulation focused on technical trail driving, terrain reading, vehicle setup, fuel management, and recovery.",
+      "paragraphs": [
+        "The developer describes each stage as one trail from start to finish. The core challenge is not simply reaching a high speed. Players are expected to read the ground, choose a line, and adjust the truck when the trail becomes difficult.",
+        "The published game description names mud, roots, rock and water as terrain that changes how the truck grips and climbs. It also says players can drive solo or with friends and return to improve their times. Because the game is in Early Access, details can change between updates, so this guide separates developer-confirmed facts from anything that still needs in-game verification."
+      ],
+      "subsections": [
+        {
+          "heading": "Why Speed Is Not Enough",
+          "paragraphs": [
+            "The official description explicitly says that speed will not get you through and that reading the ground matters. In practical terms, treat difficult sections as a line-selection and vehicle-setup problem first. This site does not publish invented traction values or hidden physics numbers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-offroad-driving-works",
+      "heading": "How Does Offroad Driving Work?",
+      "intro": "The game description confirms several systems that make Low Range Offroad 4x4 different from a simple racing game.",
+      "subsections": [
+        {
+          "heading": "Pick a Line Through Different Terrain",
+          "paragraphs": [
+            "Mud, roots, rock and water are all named by the developer. The safest high-level approach is to inspect the obstacle, avoid assuming one route works everywhere, and use the vehicle systems that the game exposes when the trail gets harder. Exact best lines depend on the current trail and game build and should be demonstrated with real gameplay rather than guessed."
+          ]
+        },
+        {
+          "heading": "Shared Ruts Change the Trail",
+          "paragraphs": [
+            "The developer says mud ruts get deeper with every truck that passes and that the change is shared for everyone on the server. That means a line that was easy earlier may not feel identical later in a multiplayer session."
+          ]
+        },
+        {
+          "heading": "Fuel and Checkpoints Matter",
+          "paragraphs": [
+            "The game description states that 4WD burns more fuel. Fuel caches on the trail refill the tank and also act as checkpoints. No fuel-consumption rate, cache distance, or economy figure is published here unless it is measured in the game."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controls",
+      "heading": "Start With the Right Controls",
+      "intro": "Keyboard, mouse and controller support are confirmed by the developer, but the exact action-to-button mapping still needs direct in-game verification.",
+      "paragraphs": [
+        "Do not use generic Roblox driving controls as if they were Low Range Offroad 4x4 facts. The dedicated controls page records only what is confirmed and keeps unverified keybind rows out of the visible reference table."
+      ],
+      "links": [
+        {
+          "label": "Low Range controls",
+          "slug": "controls",
+          "description": "See confirmed input support and the verification status of game-specific keybinds."
+        }
+      ]
+    },
+    {
+      "id": "truck-setup",
+      "heading": "Truck Setup: Tire Pressure, Diff Locks and Low Range",
+      "intro": "The developer specifically tells players to air down the tires, lock the diffs, and drop into low range when the trail gets hard.",
+      "subsections": [
+        {
+          "heading": "Which Setting Do I Change First?",
+          "paragraphs": [
+            "There is no verified universal order or best numerical setup published in the source material. Treat the three named systems as tools to test against the obstacle in front of you. The truck setup guide explains what is confirmed and clearly marks exact PSI, menu paths, and observed effects as items that require gameplay evidence."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Truck setup guide",
+          "slug": "truck-setup",
+          "description": "Review tire air-down, differential lock, low-range and fuel facts without guessed values."
+        }
+      ]
+    },
+    {
+      "id": "winch-recovery",
+      "heading": "Winch Recovery When You Get Stuck",
+      "intro": "The developer confirms that a stuck truck can use the winch with a tree or a friend’s truck as an anchor.",
+      "subsections": [
+        {
+          "heading": "Recover With a Friend",
+          "paragraphs": [
+            "Cooperative recovery is part of the published game description. The confirmed fact is that a friend’s truck can be used as a winch anchor. Exact attachment buttons, rope behavior, range, and release steps are not published as facts until they are observed in the current game build."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Winch recovery guide",
+          "slug": "winch-guide",
+          "description": "See the confirmed anchor options and what still needs an in-game control check."
+        }
+      ]
+    },
+    {
+      "id": "verified-mechanics-directory",
+      "heading": "Verified Mechanics Directory",
+      "intro": "This table keeps confirmed game facts separate from details that still require direct testing.",
+      "table": {
+        "caption": "Low Range Offroad 4x4 mechanics verified from the developer description",
+        "columns": [
+          "System",
+          "What is confirmed",
+          "Detailed help"
+        ],
+        "rows": [
+          [
+            "Controls",
+            "Keyboard, mouse and controller are supported. Exact bindings are not yet verified.",
+            "/controls/"
+          ],
+          [
+            "Truck setup",
+            "Air down tires, lock the diffs and use low range when the trail gets hard.",
+            "/truck-setup/"
+          ],
+          [
+            "Winch",
+            "A tree or a friend’s truck can be used as a recovery anchor.",
+            "/winch-guide/"
+          ],
+          [
+            "Fuel",
+            "4WD uses more fuel; trail fuel caches refill the tank and act as checkpoints.",
+            "Homepage overview"
+          ],
+          [
+            "Mud ruts",
+            "Ruts deepen as trucks pass and the change applies across the server.",
+            "Homepage overview"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "getting-started-plan",
+      "heading": "A Practical First-Trail Plan",
+      "paragraphs": [
+        "Start with the official Roblox game page rather than an unofficial download or a browser embed. Confirm that the experience title and developer match Low Range: Offroad 4x4 and MTBAce Studios. Once the experience loads, look at the information presented by the current game build before following any third-party shortcut. Because this title is in Early Access, a screenshot or control description from another release may not match the version you see. That is why this guide points to the official experience and separates published game features from actual controls that still require testing.",
+        "Approach the first trail as a series of decisions rather than a race. The developer describes stages with a start and finish and emphasizes reading the ground. Look ahead at the next obstacle, identify the surface, and decide whether the line ahead appears more suitable than another visible route. Do not assume that an easy-looking shallow area remains unchanged after many players use it: the developer says muddy ruts deepen as trucks pass. If your truck gets stuck, the winch and vehicle setup systems are more relevant to investigate than repeatedly trying the same line at higher speed."
+      ]
+    },
+    {
+      "id": "terrain-reading",
+      "heading": "Reading Mud, Roots, Rock and Water",
+      "paragraphs": [
+        "Mud, roots, rock and water are specifically named in the developer description. Those labels identify the kinds of conditions the game asks you to consider, not a published set of numerical traction multipliers. In a muddy section, pay attention to whether you are entering an existing rut or crossing it. On rock, note the apparent path around large obstacles and whether the vehicle has enough room to approach. Around roots and water, the safest editorial advice is to observe what the current game actually displays instead of assuming a real-world driving technique has the same measured effect in the simulation.",
+        "A useful way to learn a trail is to compare one variable at a time. Remember the same approach line, observe how the truck behaves, and then consider a different line or one of the developer-confirmed setup systems. This is a player observation method, not a claim that any particular setting guarantees success. If you are playing with friends, keep in mind that the surface may have changed because other vehicles have used it. A screenshot that documents where a difficult section begins is more useful for a repeatable guide than an unverified claim that one route is always fastest."
+      ]
+    },
+    {
+      "id": "choosing-setup",
+      "heading": "Deciding When to Explore Truck Settings",
+      "paragraphs": [
+        "Three truck systems are explicitly mentioned by the creator: airing down tires, locking differentials and selecting low range. The game description presents them as options for difficult trails. It does not publish an ideal tire pressure, a particular differential-lock activation key, a low-range gear ratio or a guaranteed order of operations. Therefore, treat any numerical recipe from an unrelated off-road game as unverified. Our dedicated truck setup page explains these distinct concepts and provides a practical checklist for collecting dependable in-game observations.",
+        "When evaluating a change, first identify the problem you are trying to solve. Is the vehicle struggling on the current surface, is the route itself obstructed, or is the driver unsure which control is active? Those are different questions. Write down the current trail, obstacle, vehicle and the actual option visible in your version of the game. Change one thing only if that setting is available and you can confirm its state. You will learn more from a comparison on the same obstacle than from a list of supposed best settings copied without a source."
+      ]
+    },
+    {
+      "id": "fuel-and-route",
+      "heading": "Fuel Management and Trail Checkpoints",
+      "paragraphs": [
+        "The developer says that using 4WD consumes more fuel, and that fuel caches along the trail both refill your tank and act as checkpoints. This makes fuel part of a route decision rather than a cosmetic dashboard number. The public description does not provide a liters-per-minute value, a map of cache coordinates or a universal distance between stops. Instead of inventing those figures, this guide recommends reading the information in your current session and treating a confirmed cache as a useful point to remember when planning your next attempt.",
+        "If you are comparing two routes or repeating a section, note whether your driving configuration and game state were the same. Otherwise, a difference in fuel use may have multiple explanations. The reliable part of the official information is simple: 4WD uses more fuel, and caches can refill fuel and mark progress. The controls guide is where verified input mapping should eventually live; the truck setup guide is where tested vehicle observations belong. Keeping those topics separate gives players a clear answer instead of mixing unverified fuel predictions into a general overview."
+      ]
+    },
+    {
+      "id": "cooperative-recovery",
+      "heading": "Playing With Friends and Planning Recovery",
+      "paragraphs": [
+        "Low Range: Offroad 4x4 supports solo driving and playing with friends according to its published description. The same description says the winch can attach to a tree or a friend’s truck to pull a stuck vehicle free. Those are confirmed categories of possible anchors, but the description does not explain the exact attachment button, rope length, aiming procedure or order of in-game prompts. Until those are recorded in a current build, a responsible guide must not describe guessed button presses as the game’s official procedure.",
+        "A useful preparation is to think through the recovery question before you are stuck. Identify whether another truck is nearby, whether the trail visibly contains a tree, and where the current obstacle leaves room for a different approach. This is not a claim that every visible tree is selectable or that every nearby vehicle can be attached from any distance. It is a checklist for deciding what to inspect. Visit the winch guide for the confirmed anchor options and for an explanation of which activation details remain unverified."
+      ]
+    },
+    {
+      "id": "finding-trustworthy-help",
+      "heading": "How to Judge Low Range Guides and Videos",
+      "paragraphs": [
+        "Many driving games share similar words such as low range, differential lock and winch. A result about real-world off-road equipment or another Roblox driving game is not evidence of what this particular game does. Check the exact title, the developer and the Roblox experience ID before accepting a tutorial. The official Roblox destination for this game uses place ID 88131802740480; a guide should not redirect you to an unrelated download, sign-in page or paid cheat tool as if it were the normal game entry point.",
+        "For precise control advice, prefer an image or video that shows the relevant prompt in the game itself. The capture should identify which platform it covers and when it was recorded. Early Access is a strong reason to include a date on every measured control or setting. Claims about the best vehicle, hidden settings, redemption codes or exact performance numbers deserve the same standard. If a page offers only confident claims without a traceable game-specific observation, treat them as an untested suggestion rather than an established Low Range fact."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Where can I play Low Range: Offroad 4x4?",
+      "answer": "Use the official Roblox experience at https://www.roblox.com/games/88131802740480. This is an independent player guide and does not host or embed the game."
+    },
+    {
+      "question": "Does Low Range: Offroad 4x4 support controllers?",
+      "answer": "Yes. The developer description says keyboard, mouse and controller are supported. Exact controller bindings still need current in-game verification."
+    },
+    {
+      "question": "Can I winch to another truck?",
+      "answer": "Yes. The developer description says you can hook the winch to a tree or a friend’s truck to pull free."
+    },
+    {
+      "question": "Is Low Range: Offroad 4x4 in Early Access?",
+      "answer": "Yes. The title and developer description label it Early Access and warn that things can change and some features may break."
+    }
+  ],
+  "screenshots": [],
+  "sources": [
+    {
+      "url": "https://www.roblox.com/games/88131802740480",
+      "title": "Official Roblox experience",
+      "sourceType": "official"
+    },
+    {
+      "url": "https://rivalducks.com/apps/radar/games/10769969117-low-range-offroad-4x4",
+      "title": "Developer description mirror and game identity reference",
+      "sourceType": "guide"
+    },
+    {
+      "url": "https://rostats.io/games/10769969117",
+      "title": "Roblox game identity and update reference",
+      "sourceType": "guide"
+    }
+  ],
+  "lastReviewed": "2026-11-05"
+}
